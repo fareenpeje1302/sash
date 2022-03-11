@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!--css and js link-->
+	<link rel="stylesheet" href="sash.css">
+	<!--font awesome link-->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+	<!--viewport link-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--jquery-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<title>sash login page</title>
+</head>
+
+<body>
+	<div class="page-heading">
+		<h3>EDIT PROFILE</h3>
+		<div class="side-heading"> <span><a href="#pages" class="page">Pages/</a><a href="#edit">edit profile</a></span> </div>
+	</div>
+	<!--Form-->
+	<div class="container">
+		<!-- FIRST DIV OF EDIT PASSWORD-->
+		
+		<div>
+			<div class="edit-password col-lg-3">
+				<form  id="form1">
+				<h3>Edit Password</h3>
+				<hr>
+				<!--profile img-->
+				<div class="img-profile"> <img src="images/paterson.png" alt="paterson" width="80px">
+					<h5>Percy Kewshun</h5>
+					<p>Web Designer</p>
+				</div>
+				<!--inputs-->
+				<div class="inputs">
+					<label for="current"><b> Current Password</b></label>
+					<div>
+						<button onclick="myFunction1()"><i class="fas fa-eye"></i></button>
+						<input type="password" id="current" placeholder="Current Password" name="current" required > 
+						
+					</div>
+					<br>
+					<label for="New"><b> New Password</b></label>
+					<div>
+						<button onclick="myFunction2()"><i class="fas fa-eye"></i></button>
+						<input type="password" id="new" placeholder="New Password" name="new" required>
+						
+					 </div>
+					<br>
+					<label for="Confirm"><b> Confirm Password</b></label>
+					<div>
+						<button onclick="myFunction3()"><i class="fas fa-eye"></i></button>
+						<input type="password" id="confirm" placeholder="Confirm Password" name="confirm" required> 
+						
+					</div>
+					<hr>
+					<div class="button">
+						<button type="button" class="cancelbtn">Cancel</button>
+						<button type="submit" class="updatebtn">Update</button>
+					</div>
+				</div>
+				</form>
+			</div>
+			<!--contact -->
+			<div class="contact">
+				<h3>Contact</h3>
+				<hr>
+				<br>
+				<div class="contactList">
+					<p class="list1"><a href="#profile"><i class="far fa-envelope"></i></a>support@demo.com</p>
+					<p class="list2"><a href="#sash"><i class="fas fa-globe"></i></a>www.abcd.com</p>
+					<p class="list3"><a href="#sash"><i class="fas fa-phone-alt"></i></a>+125 5826 3658</p>
+				</div>
+			</div>
+		</div>
+		<!--Edit Profile Conatiner-->
+		
+		<div class="profile">
+			<form id="form2">
+			<h3>Edit profile</h3>
+			<hr>
+			<div class="profileName">
+				<!--FIRST NAME-->
+				<div class="firstName">
+					<label for="fname">First Name</label>
+					<br>
+					<input type="text" placeholder="First Name" id="fname" name="fname" required> </div>
+				<!--LAST NAME-->
+				<div class="lastName">
+					<label for="lname">Last Name</label>
+					<br>
+					<input type="text" placeholder="Last Name" id="lname" name="lname" required> </div>
+			</div>
+			<!--EMAIL ADDRESS-->
+			<div>
+				<label for="email">Email Address</label>
+				<br>
+				<input type="email" placeholder="Email Addresss" id="email" name="email" required> </div>
+			<!--CONTACT NUMBAR-->
+			<div class="contactNumber">
+				<label for="contact">Contact Number</label>
+				<br>
+				<input type="text" id="contact" placeholder="Contact Number" name="contact" required> </div>
+			<!--ABOUT ME-->
+			<div>
+				<label for="textarea">About Me</label>
+				<br>
+				<textarea name="About" id="textarea" cols="50" rows="10" placeholder="My Bio..." id="textarea" required></textarea>
+			</div>
+			<!--WEBSITE-->
+			<div class="web">
+				<label for="web">Website</label>
+				<br>
+				<input type="url" id="web" name="web" placeholder="http:/splink.com" required > </div>
+			<br>
+			<!--DATE OF BIRTH-->
+			<label> Date Of Birth </label>
+			<br>
+			<div class="date">
+				<div>
+					<select id="date" name="date" required >
+						<option  value="">Date</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+						<option value="13">13</option>
+						<option value="14">14</option>
+						<option value="15">15</option>
+						<option value="16">16</option>
+						<option value="17">17</option>
+						<option value="18">18</option>
+						<option value="19">19</option>
+						<option value="20">20</option>
+						<option value="21">21</option>
+						<option value="22">22</option>
+						<option value="23">23</option>
+						<option value="24">24</option>
+						<option value="25">25</option>
+						<option value="26">26</option>
+						<option value="27">27</option>
+						<option value="28">28</option>
+						<option value="29">29</option>
+						<option value="30">30</option>
+						<option value="31">31</option>
+					</select>
+				</div>
+				<div>
+					<select id="month" name="month" required>
+						<option value="">month</option>
+						<option value="jan">Jan</option>
+						<option value="feb">Feb</option>
+						<option value="mar">march</option>
+						<option value="apr">April</option>
+						<option value="may">May</option>
+						<option value="jun">JUne</option>
+						<option value="jul">July</option>
+						<option value="aug">Aug</option>
+						<option value="sep">Sept</option>
+						<option value="oct">Oct</option>
+						<option value="nov">NOv</option>
+						<option value="dec">Dec</option>
+					</select>
+				</div>
+				<div>
+					<select id="year" name="year" required>
+						<option value="">Year</option>
+						<option value="98">1988</option>
+						<option value="89">1989</option>
+						<option value="90">1990</option>
+						<option value="91">1991</option>
+						<option value="92">1992</option>
+						<option value="93">1993</option>
+						<option value="94">1994</option>
+						<option value="95">1995</option>
+						<option value="96">1996</option>
+						<option value="97">1997</option>
+						<option value="98">1998</option>
+						<option value="99">1999</option>
+						<option value="200">2000</option>
+						<option value="01">2001</option>
+						<option value="02">2002</option>
+						<option value="03">2003</option>
+						<option value="04">2004</option>
+						<option value="05">2005</option>
+						<option value="06">2006</option>
+						<option value="07">2007</option>
+						<option value="08">2008</option>
+						<option value="09">2009</option>
+						<option value="10">2010</option>
+						<option value="11">2011</option>
+						<option value="12">2012</option>
+						<option value="13">2013</option>
+						<option value="14">2014</option>
+						<option value="15">2015</option>
+						<option value="16">2016</option>
+						<option value="17">2017</option>
+						<option value="18">2018</option>
+					</select>
+				</div>
+			</div>
+			<hr>
+			<!--SAVE AND CANCEL BUTTON FOR PROFILE -->
+			<div class="button">
+				<button class="cancelbtn2" name="cancel" >Cancel</button>
+				<button  type="submit" class="savebtn" name="save" >Save</button>
+			</div>
+		</form>
+	</div>
+		<!--login Password of social media-->
+		<div class="socialMedia">
+			<form id="form3">
+			<div class="loginPassword">
+				<div>
+					<h3> Social Media Account</h3>
+					<hr>
+					<br> </div>
+				<!--INPUT PASSWOrd-->
+				<div class="mediaBlock">
+					
+					<label for="facebook">Facebook</label>
+					<br>
+					<div>
+						<button onclick="myFunction4()" class="socialmedia-icon"><i class="fab fa-facebook"></i> </button>
+						<input type="password" id="facebook" name="facebook" placeholder="Facebook Password" required>
+
+					 </div>
+					 <br>
+					<label for="instagram">Instagram</label>
+					
+					<div>
+						<button onclick="myFunction5()" class="socialmedia-icon"><i class="fab fa-instagram"></i> </button>
+						<input type="password" id="instagram" name="instagram" placeholder="Instagram Password" required>
+
+					</div>
+					<br>
+					<label for="twitter">Twitter</label>
+					<div>
+						<button onclick="myFunction6()" class="socialmedia-icon"><i class="fab fa-twitter"></i> </button>
+						<input type="password" id="twitter" name="twitter" placeholder="Twitter password" required> 
+
+					</div>
+					
+					</div>
+			</div>
+			<hr>
+			<br>
+			<div class="button">
+				<button class="cancelbtn2">Cancel</button>
+				<button type="submit" class="savebtn">Save</button>
+			</div>
+			</form>
+		</div>
+	
+	</div>
+	<!--jquery library for validation of form-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+<script src="http://codeseven.github.io/toastr/build/toastr.min.js"></script>
+
+	<script src="sash.js"></script>
+</body>
+
+</html>

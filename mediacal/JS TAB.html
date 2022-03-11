@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+	<style>
+	@import url('https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css');
+	.container {
+		margin: 10px auto;
+	}
+	
+	.nav>li>a:hover,
+	.nav>li>a:focus {
+		border-color: #fff;
+		background-color: #fff;
+		color: #f86464;
+	}
+	.disabled {
+    pointer-events:none; /*This makes it not clickable*/
+    opacity:0.6;         /*This grays it out to look disabled*/
+}
+	.nav-tabs>li>a {
+		color: black;
+	}
+    li{
+        list-style-type: none;
+    }
+    a{
+        color: black;
+    }
+    a:hover, a:focus{
+        text-decoration: none;
+        color: #f86464;
+    }
+    .tab-content{
+        overflow: hidden;
+    }
+    .header-detail{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .header-detail >div h3{
+        font-size: 38px;
+    }
+	span hr{
+		width: 1100px;
+		margin-left: 25px;
+		margin-bottom: 25px !important;
+	}
+	.list-item ul{
+		column-count: 3;
+		column-fill: balance;
+	}
+	</style>
+	<title>Document</title>
+</head>
+
+<body>
+	<div class="container">
+		<!--whole page Starts here-->
+		<ul class="nav nav-tabs">
+			<li><a href="#aaa" data-toggle="tab">A</a></li>
+			<li><a href="#bbb" data-toggle="tab">B</a></li>
+			<li><a href="#ccc" data-toggle="tab">C</a></li>
+			<li><a href="#ddd" data-toggle="tab">D</a></li>
+			<li><a href="#eee" data-toggle="tab">E</a></li>
+			<li><a href="#fff" data-toggle="tab">F</a></li>
+			<li><a href="#ggg" data-toggle="tab">G</a></li>
+			<li><a href="#hhh" data-toggle="tab">H</a></li>
+			<li><a href="#iii" data-toggle="tab">I</a></li>
+			<li><a href="#jjj" data-toggle="tab">J</a></li>
+			<li><a href="#kkk" data-toggle="tab">K</a></li>
+			<li><a href="#lll" data-toggle="tab">L</a></li>
+			<li><a href="#mmm" data-toggle="tab">M</a></li>
+			<li><a href="#nnn" data-toggle="tab">N</a></li>
+			<li><a href="#ooo" data-toggle="tab">O</a></li>
+			<li><a href="#ppp" data-toggle="tab">P</a></li>
+			<li><a href="#qqq" data-toggle="tab">Q</a></li>
+			<li><a href="#rrr" data-toggle="tab">R</a></li>
+			<li><a href="#sss" data-toggle="tab">S</a></li>
+			<li><a href="#ttt" data-toggle="tab">T</a></li>
+			<li><a href="#uuu" data-toggle="tab">U</a></li>
+			<li><a href="#vvv" data-toggle="tab">V</a></li>
+			<li class="disabled"><a href="#www" data-toggle="tab">W</a></li>
+			<li><a href="#xxx" data-toggle="tab">X</a></li>
+			<li class="disabled"><a href="#yyy" data-toggle="tab">Y</a></li>
+			<li><a href="#zzz" data-toggle="tab">Z</a></li>
+		</ul>
+		<div class="tab-content" id="tabs">
+			<div class="tab-pane" id="aaa">
+                <div class="header-detail" ><div><h3>A</h3></div><div><span class="title-line"> <hr></span></div></div>
+				<div class="list-item">
+					<ul >
+						<li><a href="#abilify">  Abilify</a></li>
+						<li><a href="#abilify">Alprazolam</a></li>
+						<li><a href="#abilify">Amitriptyline</a></li>
+						<li><a href="#abilify">Amlodipine</a></li>
+						<li><a href="#abilify">Aromasin</a></li>
+						<li><a href="#abilify">Atorvastatin</a></li>
+						<li><a href="#abilify">Aubagio</a></li>
+						<li><a href="#abilify">Avonex</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="tab-pane" id="bbb">
+                <div class="header-detail" ><div><h3>B</h3></div><div><span  class="title-line"> <hr></span></div></div>
+				<div class="list-item">
+					<ul >
+						<li><a href="#abilify"> Baqsimi </a></li>
+						<li><a href="#abilify">Biktarvy </a></li>
+						<li><a href="#abilify">Botox</a></li>
+						<li><a href="#abilify">Brilinta</a></li>
+						<li><a href="#abilify">Buprenex</a></li>
+						<li><a href="#abilify">Buprenorphine</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="tab-pane" id="ccc">
+                <div class="header-detail" ><div><h3>C</h3></div><div><span  class="title-line"><hr> </span></div></div>
+				<div class="list-item">
+					<ul>
+						<li><a href="#abilify">Carvedilol </a></li>
+						<li><a href="#abilify"> Cimzia</a></li>
+						<li><a href="#abilify"> Clonazepam</a></li>
+						<li><a href="#abilify">Cosentyx</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="tab-pane" id="ddd">
+                <div class="header-detail" ><div><h3>D</h3></div><div><span  class="title-line"><hr> </span></div></div>
+				<div class="list-item">
+					<ul>
+						<li><a href="#abilify">Descovy </a></li>
+						<li><a href="#abilify"> Duloxetine</a></li>
+						<li><a href="#abilify"> Dupixent</a></li>
+					</ul>
+				</div>
+			</div>
+            <div class="tab-pane" id="eee">
+                <div class="header-detail" ><div><h3>E</h3></div><div><span  class="title-line"><hr> </span></div></div>
+				<div class="list-item">
+					<ul >
+						<li><a href="#abilify">Enbrel </a></li>
+						<li><a href="#abilify"> Epclusa</a></li>
+						<li><a href="#abilify"> Escitalopram</a></li>
+                        <li><a href="#abilify"> Eylea</a></li>
+                        <li><a href="#abilify">Emgality </a></li>
+                        <li><a href="#abilify">Empliciti </a></li>
+                        <li><a href="#abilify">Entyvio </a></li>
+					</ul>
+				</div>
+			</div>
+            <div class="tab-pane" id="fff">
+                <div class="header-detail" ><div><h3>F</h3></div><div><span class="title-line"><hr></span></div></div>
+				<div class="list-item">
+					<ul>
+						<li><a href="#abilify">Faslodex </a></li>
+						<li><a href="#abilify"> Fluoxetine</a></li>
+						<li><a href="#abilify"> Femara</a></li>
+                        <li><a href="#abilify"> Furosemide</a></li>
+					</ul>
+				</div>
+			</div>
+            <div class="tab-pane" id="ggg">
+                <div class="header-detail" ><div><h3>G</h3></div><div><span class="title-line"><hr> </span></div></div>
+				<div class="list-item">
+					<ul>
+						<li><a href="#abilify">Gvoke </a></li>
+						<li><a href="#abilify"> Gilenya</a></li>
+					</ul>
+				</div>
+			</div>
+            <div class="tab-pane" id="hhh">
+                <div class="header-detail" ><div><h3>H</h3></div><div><span class="title-line"><hr></span></div></div>
+				<div class="list-item" >
+					<ul >
+						<li><a href="#abilify">Humalog </a></li>
+						<li><a href="#abilify"> Humira</a></li>
+                        <li><a href="#abilify"> Humulin R</a></li>
+						<li><a href="#abilify"> Hydrochlorothiazide</a></li>
+                        <li><a href="#abilify">Hydroxyzine </a></li>
+					</ul>
+				</div>
+			</div>
+            <div class="tab-pane" id="iii">
+                <div class="header-detail" ><div><h3>I</h3></div><div><span class="title-line"><hr> </span></div></div>
+				<div class="list-item">
+					<ul>
+						<li><a href="#abilify">Imatinib </a></li>
+						<li><a href="#abilify"> Imbruvica</a></li>
+                        <li><a href="#abilify"> Imfinzi</a></li>
+						<li><a href="#abilify"> Injectafer</a></li>         
+					</ul>
+				</div>
+			</div>
+            <div class="tab-pane" id="jjj">
+                <div class="header-detail" ><div><h3>J</h3></div><div><span class="title-line"><hr> </span></div></div>
+				<div class="list-item">
+					<ul>
+						<li><a href="#abilify">Jardiance </a></li>       
+					</ul>
+				</div>
+			</div>
+            <div class="tab-pane" id="kkk">
+                <div class="header-detail" ><div><h3>K</h3></div><div><span class="title-line"><hr></span></div></div>
+				<div class="list-item">
+					<ul>
+						<li><a href="#abilify">Kesimpta </a></li>
+						<li><a href="#abilify">Keytruda</a></li>
+					</ul>
+				</div>
+			</div>
+            <div class="tab-pane" id="lll">
+                <div class="header-detail" ><div><h3>L</h3></div><div><span class="title-line"> <hr></span></div></div>
+				<div class="list-item">
+					<ul>
+						<li><a href="#abilify">Latuda</a></li>
+						<li><a href="#abilify">Letrozole</a></li>
+                        <li><a href="#abilify">lorazepam</a></li>
+                        <li><a href="#abilify">Losartan</a></li>
+                        <li><a href="#abilify">Lucentis</a></li>
+                        <li><a href="#abilify">Lyumjev</a></li>
+					</ul>
+				</div>
+			</div>
+            <div class="tab-pane" id="mmm">
+                <div class="header-detail" ><div><h3>M</h3></div><div><span class="title-line"><hr> </span></div></div>
+				<div class="list-item">
+					<ul>
+						<li><a href="#abilify">Mavyret</a></li>
+						<li><a href="#abilify">Mayzent</a></li>
+                        <li><a href="#abilify">Metformin</a></li>
+                        <li><a href="#abilify">Metoprolol</a></li>
+					</ul>
+				</div>
+			</div>
+            <div class="tab-pane" id="nnn">
+                <div class="header-detail" ><div><h3>N</h3></div><div><span class="title-line"><hr> </span></div></div>
+				<div class="list-item">
+					<ul >
+						<li><a href="#abilify">Narcan</a></li>
+						<li><a href="#abilify">Nerlynx</a></li>
+                        <li><a href="#abilify">Neulasta</a></li>
+                        <li><a href="#abilify">Nplate</a></li>
+					</ul>
+				</div>
+			</div>
+            <div class="tab-pane" id="ooo">
+                <div class="header-detail" ><div><h3>O</h3></div><div><span class="title-line"><hr> </span></div></div>
+				<div class="list-item">
+					<ul>
+						<li><a href="#abilify">Ocrevus</a></li>
+						<li><a href="#abilify">Olumiant</a></li>
+                        <li><a href="#abilify">Opdivo</a></li>
+                        <li><a href="#abilify">Oriahnn</a></li>
+                        <li><a href="#abilify">Orilissa</a></li>
+						<li><a href="#abilify">Onfi</a></li>
+                        <li><a href="#abilify">Ongentys</a></li>
+                        <li><a href="#abilify">Onpattro</a></li>
+                        <li><a href="#abilify">Orencia</a></li>
+						<li><a href="#abilify">Oriahnn</a></li>
+                        <li><a href="#abilify">Otezla</a></li>
+                        <li><a href="#abilify">Oxycodone</a></li>
+                        <li><a href="#abilify">Ozempic</a></li>
+					</ul>
+				</div>
+			</div>
+            <div class="tab-pane" id="ppp">
+                <div class="header-detail" ><div><h3>P</h3></div><div><span class="title-line"><hr> </span></div></div>
+				<div class="list-item">
+					<ul>
+						<li><a href="#abilify">Pantoprazole</a></li>
+						<li><a href="#abilify">Pantoprazole</a></li>
+					</ul>
+				</div>
+			</div>
+            <div class="tab-pane" id="qqq">
+                <div class="header-detail" ><div><h3>Q</h3></div><div><span class="title-line"><hr> </span></div></div>
+				<div class="list-item">
+					<ul >
+						<li><a href="#abilify">Quetiapine</a></li>
+					</ul>
+				</div>
+			</div>
+            <div class="tab-pane" id="rrr">
+                <div class="header-detail" ><div><h3>R</h3></div><div><span class="title-line"><hr> </span></div></div>
+				<div class="list-item">
+					<ul >
+						<li><a href="#abilify">Remicade</a></li>
+						<li><a href="#abilify">Repatha</a></li>
+                        <li><a href="#abilify">Retevmo</a></li>
+                        <li><a href="#abilify">Reyvow</a></li>
+                        <li><a href="#abilify">Rexulti</a></li>
+						<li><a href="#abilify">Rinvoq</a></li>
+                        <li><a href="#abilify">Rydapt</a></li>
+                        <li><a href="#abilify">Rituxan</a></li>
+                        <li><a href="#abilify">Rituxan Hycela</a></li>
+						<li><a href="#abilify">Rybelsus</a></li>
+					</ul>
+				</div>
+			</div>
+            <div class="tab-pane" id="sss">
+                <div class="header-detail" ><div><h3>S</h3></div><div><span class="title-line"><hr> </span></div></div>
+				<div class="list-item">
+					<ul >
+						<li><a href="#abilify">Skyrizi</a></li>
+						<li><a href="#abilify">Sprycel</a></li>
+                        <li><a href="#abilify">Stelara</a></li>
+                        <li><a href="#abilify">Sublocade</a></li>
+					</ul>
+				</div>
+			</div>
+            <div class="tab-pane" id="ttt">
+                <div class="header-detail" ><div><h3>T</h3></div><div><span class="title-line"> <hr></span></div></div>
+				<div class="list-item">
+					<ul >
+						<li><a href="#abilify">Taltz</a></li>
+						<li><a href="#abilify">Tecentriq</a></li>
+                        <li><a href="#abilify">Topiramate</a></li>
+                        <li><a href="#abilify">Tacrolimus</a></li>
+                        <li><a href="#abilify">Takhzyro</a></li>
+						<li><a href="#abilify">Tamsulosin</a></li>
+                        <li><a href="#abilify">Tofacitinib</a></li>
+                        <li><a href="#abilify">Trulicity</a></li>
+                        <li><a href="#abilify">Tremfya</a></li>
+						<li><a href="#abilify">Tresiba</a></li>
+					</ul>
+				</div>
+			</div>
+            <div class="tab-pane" id="uuu">
+                <div class="header-detail" ><div><h3>U</h3></div><div><span class="title-line"> <hr></span></div></div>
+				<div class="list-item">
+					<ul >
+						<li><a href="#abilify">Ubrelvy</a></li>
+					</ul>
+				</div>
+			</div>
+            <div class="tab-pane" id="vvv">
+                <div class="header-detail" ><div><h3>V</h3></div><div><span class="title-line"><hr> </span></div></div>
+				<div class="list-item">
+					<ul >
+						<li><a href="#abilify">Verzenio</a></li>
+						<li><a href="#abilify">Verzenio</a></li>
+                        <li><a href="#abilify">Viagra</a></li>
+                        <li><a href="#abilify">Vivitrol</a></li>
+                        <li><a href="#abilify">Vyvanse</a></li>
+					</ul>
+				</div>
+			</div>
+            <div class="tab-pane" id="xxx">
+                <div class="header-detail" ><div><h3>X</h3></div><div><span class="title-line"><hr> </span></div></div>
+				<div class="list-item">
+					<ul >
+						<li><a href="#abilify">Xeljanz and Xeljanz XR</a></li>
+						<li><a href="#abilify">Xiidra</a></li>
+                        <li><a href="#abilify">Xolair</a></li>
+					</ul>
+				</div>
+			</div>
+            <div class="tab-pane" id="zzz">
+                <div class="header-detail" ><div><h3>Z</h3></div><div><span class="title-line"><hr> </span></div></div>
+				<div class="list-item">
+					<ul >
+						<li><a href="#abilify">Zubsolv</a></li>
+						
+					</ul>
+				</div>
+			</div>
+
+		</div><!--Detail content of tabs end here-->
+	
+    </div>	<!--whole page ends here-->
+	<script>
+	function activaTab(tab) {
+		$('.nav-tabs a[href="#' + tab + '"]').tab('show');
+	};
+	activaTab('bbb');
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,386 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+.error{
+	color: red;
+}
+:focus {
+	outline: 0;
+}
+
+body {
+	background: #ececf2;
+}
+
+hr {
+	background-color: #ececf2;
+	border-width: 0;
+	height: 1px;
+	color: gray;
+}
+button{
+	border: none;
+	background: none;
+}
+.profile ,.contact button {
+	float: right;
+}
+
+
+button:hover {
+	cursor: pointer;
+}
+
+input {
+	border: 1px solid #e9edf4;
+	border-radius: 7px;
+
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+a {
+	text-decoration: none;
+}
+/*heading*/
+.page-heading{
+height: 40px;	
+display: flex;
+flex-wrap: wrap;
+margin: 15px 15px 0px 25px;
+}
+.side-heading{
+	position: absolute;
+    right: 30px;
+}
+.page{
+	text-decoration: none;
+	color: #ececf2;
+}
+/*first div edit password*/
+
+
+.edit-password {
+	width: 335px;
+	height: 530px;
+	background: white;
+	border: 1px solid #fff;
+	border-radius: 7px;
+	margin: 10px 0 0px 10px;
+	padding: 0 20px;
+}
+
+.edit-password h3 {
+	padding: 15px 14px 15px 31px;
+}
+
+.edit-password img {
+	padding: 5px 5px;
+	margin-top: 20px;
+}
+.edit-password Label{
+	font-size: 14px;
+	/* color: #282f53; */
+}
+.edit-password input[type="password"]{
+	margin-top: 10px;
+}
+.img-profile {
+	text-align: center;
+}
+
+.img-profile p {
+	color: #74829c;
+	font-size: 12px;
+}
+
+.inputs {
+	position: relative;
+	margin: 10px 0px;
+	padding: 7.6px 12px;
+}
+
+.inputs i {
+	position: absolute;
+}
+
+ .inputs .fa-eye {
+	border-right-style: solid!important;
+	border-top-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-color: #e9edf4;
+	border-right-width: 1px;
+	padding: 10px 10px 10px 15px;
+	color: #74829c;
+	font-size: 15px;
+	margin-top: -21px;
+}
+input[type=password] {
+	border-radius: 7px;
+	left: 27px;
+	width: ;
+	padding: 10px 10px 10px 40px;
+	margin: 10px 0px 5px 0px;
+}
+.edit-password input[type="text"]{
+	border-radius: 7px;
+	left: 27px;
+	width: 240px;
+	padding: 10px 10px 10px 40px;
+	margin-top: 10px;
+}
+.button {
+	margin-right: 6px;
+	margin: 10px 0px;
+	float: right;
+}
+.updatebtn {
+	color: #fff;
+	background: #6c5ffc;
+	padding: 10px 16px;
+	border-radius: 7px;
+	min-width: 2.375rem;
+	font-size: 0.8125rem;
+	border: 1px solid #6c5ffc;
+	margin: 2px;
+}
+
+.cancelbtn:hover,
+.savebtn:hover,
+.updatebtn:hover,
+.cancelbtn2:hover {
+	opacity: 0.8;
+}
+
+.cancelbtn {
+	color: #fff;
+	background: #e82646;
+	padding: 10px 16px;
+	border-radius: 7px;
+	border: 1px solid #e82646;
+	font-size: 0.8125rem;
+	min-width: 2.375rem;
+	margin: 2px;
+}
+/*Social Media*/
+.socialMedia{
+	background: #fff;
+	border: 1px solid #fff;
+	border-radius: 7px;
+	margin: 10px 0 10px 20px;
+	padding: 10px 20px;
+	height: 100%;
+	width: 400px;
+}
+.loginPassword h3{
+	padding: 15px 14px 15px 31px;
+}
+.mediaBlock{
+	margin: 10px;
+}
+.loginPassword label{
+	font-size: 14px;
+}
+.loginPassword i {
+	position: absolute;
+}
+ .loginPassword .fa-eye {
+	border-right-style: solid!important;
+	border-top-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-color: #e9edf4;
+	border-right-width: 1px;
+	padding: 10px 10px 10px 10px;
+	color: #74829c;
+	font-size: 15px;
+	margin-top: -21px;
+}
+.socialMedia input[type="text"]{
+	border-radius: 7px;
+	left: 27px;
+	width: 240px;
+	padding: 10px 10px 10px 40px;
+	margin: 10px 0px 5px 0px;
+}
+.socialmedia-icon{
+	margin-top: 23px;
+	margin-left: 11px;
+	position: absolute;
+}
+/*second div edit profile*/
+
+
+.profile {
+	width: 38%;
+	background: #fff;
+	border: 1px solid #fff;
+	border-radius: 7px;
+	margin: 10px 0 10px 20px;
+	padding: 10px 20px;
+}
+
+.profile h3 {
+	padding: 15px 14px 15px 31px;
+}
+
+.profileName {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.firstName {
+	
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.lastName {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+.profile label{/* font-size: 14px; *//* margin-left: 12px; */color: w;}
+.profile input[type=text] {
+	left: 27px;
+	padding: 0.475rem 0.75rem;
+	 margin-top: 10px; 
+	 font-size: 14px; 
+}
+input[type=email] {
+	width: 80%;
+	padding: 0.475rem 0.75rem;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+.contactNumber input[type=text] {
+	width: 80%;
+	padding: 0.475rem 0.75rem;
+	margin-top: 10px;
+	/* margin-left: 10px; */
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+textarea {
+	margin-top: 10px;
+	/* margin-left: 10px; */
+	margin-bottom: 20px;
+	border: 1px solid #e9edf4;
+	padding: 13px 0 0 15px;
+	border-radius: 7px;
+	font-size: 14px;
+}
+
+.date {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+
+select {
+	padding: 10px 45px;
+	margin: 5px 15px 5px 0px;
+	border: 1px solid #e9edf4;
+	color: #525050;
+}
+
+.web input[type=text] {
+	/* margin-left: 10px; */
+	padding: 0.475rem 0.75rem;
+}
+
+.savebtn {
+	color: #fff;
+	background: #2bc6af;
+	padding: 11px 19px;
+	border-radius: 7px;
+	margin: 6px 2px;
+	font-size: .8125rem;
+}
+.cancelbtn2 {
+	color: #fff;
+	background: #e82646;
+	padding: 10px 16px;
+	border-radius: 7px;
+	border: 1px solid #e82646;
+	font-size: .8125rem;
+	min-width: 2.375rem;
+	margin: 5px;
+}
+/*third div contact*/
+
+
+.contact {
+	background: #fff;
+	width: 370px;
+	border: 1px solid #fff;
+	margin: 10px 0 10px 17px;
+	position:relative;
+	border-radius: 7px;
+}
+
+.contact h3 {
+	margin: 15px 14px 15px 31px;
+}
+
+.contactList {
+	margin: 5px;
+}
+
+.list1 {
+	padding: 7px 2px 5px 5px;
+	border: .5px solid #ececf2;
+	border-radius: 7px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0
+}
+
+.list2 {
+	padding: 7px 2px 5px 5px;
+	border: .5px solid #ececf2;
+}
+
+.list3 {
+	padding: 7px 2px 5px 5px;
+	border: .5px solid #ececf2;
+	border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius:0px ;
+    border-top-right-radius:0px ;
+	/* border-radius: 7px */
+}
+
+
+.fa-envelope {
+	background: #e9ebfa;
+	padding: 5px;
+	border-radius: 11px;
+	margin: 5px;
+	color: #756efb;
+	font-size: 14px;
+}
+
+.fa-globe {
+	background: #e9ebfa;
+	padding: 5px;
+	border-radius: 11px;
+	margin: 5px;
+	color: #756efb;
+	font-size: 14px;
+}
+
+.fa-phone-alt {
+	background: #e9ebfa;
+	padding: 5px;
+	border-radius: 11px;
+	margin: 5px;
+	color: #756efb;
+	font-size: 14px;
+}
